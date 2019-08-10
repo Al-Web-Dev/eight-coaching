@@ -1,0 +1,117 @@
+.primary-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 600px;
+  background-color: rgba(72, 72, 68, 0.4);
+}
+
+.navbar {
+  opacity: 0.9;
+  background: #fff;
+}
+
+.navbar .nav-item {
+  font-size: 1.1rem;
+  padding-right: 0px;
+}
+
+.navbar img {
+  width: auto;
+  height: 90px;
+}
+
+.navbar-brand {
+  font-size: 1.1rem;
+}
+
+#home-banner {
+  position: relative;
+  background: url("../img/thought-catalog-UK78i6vK3sc-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  min-height: 600px;
+}
+
+#about-banner {
+  position: relative;
+  background: url("../img/alesia-kazantceva-VWcPlbHglYc-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 600px;
+}
+
+#forIndividuals {
+  position: relative;
+  background: url("../img/girl-on-phone.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 600px;
+}
+
+#forOrganisations {
+  position: relative;
+  background: url("../img/buildings.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 600px;
+}
+
+#ourApproach {
+  position: relative;
+  background: url("../img/sunrise.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 600px;
+}
+
+#inspireQuote {
+  position: relative;
+  background: url("../img/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 600px;
+}
+
+#callToAction {
+  border-bottom: 1px #A5B8AE solid;
+}
+
+#main-footer img {
+  width: auto;
+  height: 70px;
+}
+
+#main-footer .email-link {
+  color: #F59071;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+.pull-left {
+  float: left !important;
+}
+
+@media (max-width: 768px) {
+  #home-banner {
+    min-height: 400px;
+  }
+  #home-banner h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar .nav-item, #main-footer {
+    font-size: 0.8rem;
+  }
+  .navbar img {
+    width: auto;
+    height: 50px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
