@@ -11,6 +11,12 @@ $primary-overlay: rgba(72, 72, 68, 0.4);
     background-color: $primary-overlay;
 }
 
+#logo {
+    width: auto;
+    height: 90px;
+    transition: 0.4s;
+}
+
 .navbar {
     opacity: 0.9;
     background: #fff;
@@ -19,15 +25,18 @@ $primary-overlay: rgba(72, 72, 68, 0.4);
         font-size: 1.1rem;
         padding-right: 0px;
     }
-    img {
-        width: auto;
-        height: 90px;
-    }  
+    
+}
+
+.extra-margin {
+    padding-top: 130px!important;
 }
 
 .navbar-brand {
     font-size: 1.1rem;
 }
+
+
 
 #home-banner {
     position: relative;
@@ -70,14 +79,27 @@ $primary-overlay: rgba(72, 72, 68, 0.4);
     min-height: 600px;
 }
 
-
-
 #inspireQuote {
     position: relative;
     background: url('../img/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 600px;
+}
+
+#testimonialHero {
+    position: relative;
+    background: url('../img/sunrise.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+}
+
+#testimonials {
+   
+    img {
+        margin-top: -50px;
+    }
 }
 
 #callToAction {
@@ -105,8 +127,6 @@ $primary-overlay: rgba(72, 72, 68, 0.4);
 
 
 
-
-
 @media(max-width: 768px) {
     #home-banner {
         min-height: 400px;
@@ -121,9 +141,15 @@ $primary-overlay: rgba(72, 72, 68, 0.4);
     .navbar .nav-item, #main-footer {
         font-size: 0.8rem;
     }
-
-    .navbar img {
+    #logo {
         width: auto;
-        height: 50px;
-    }
+        height: 50px!important;
+    } 
+}
+
+@media(max-width: 425px) {
+    #logo {
+        width: auto;
+        height: 35px!important;
+    } 
 }

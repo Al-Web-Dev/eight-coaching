@@ -15,11 +15,11 @@
 <body>
 
   <!-- Nav -->
-  <nav class="navbar navbar-expand-md navbar-light my-2 navbar-sticky">
-    <div class="container">
-      <a href="index.html" class="navbar-brand">
-        <img src="img/eightlogos_Main cropped.png" alt="Eight Coaching Logo Branding">
-      </a>
+  <nav class="navbar navbar-expand-md navbar-light mb-2 fixed-top">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img id="logo" src="img/eightlogos_Main cropped.png" alt="Eight Coaching Logo Branding">
+        </a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -181,6 +181,18 @@
   <script>
     // Get the current year for the copyright
     $('#year').text(new Date().getFullYear());
+
+    // Nav scroll animation
+
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+      document.getElementById("logo").style.height = "55px";
+    } else {
+      document.getElementById("logo").style.height = "90px";
+    }
+    }
 
   </script>
 </body>

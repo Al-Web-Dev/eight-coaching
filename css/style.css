@@ -7,6 +7,13 @@
   background-color: rgba(72, 72, 68, 0.4);
 }
 
+#logo {
+  width: auto;
+  height: 90px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
 .navbar {
   opacity: 0.9;
   background: #fff;
@@ -17,9 +24,8 @@
   padding-right: 0px;
 }
 
-.navbar img {
-  width: auto;
-  height: 90px;
+.extra-margin {
+  padding-top: 130px !important;
 }
 
 .navbar-brand {
@@ -75,6 +81,18 @@
   min-height: 600px;
 }
 
+#testimonialHero {
+  position: relative;
+  background: url("../img/sunrise.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 600px;
+}
+
+#testimonials img {
+  margin-top: -50px;
+}
+
 #callToAction {
   border-bottom: 1px #A5B8AE solid;
 }
@@ -109,9 +127,16 @@
   .navbar .nav-item, #main-footer {
     font-size: 0.8rem;
   }
-  .navbar img {
+  #logo {
     width: auto;
-    height: 50px;
+    height: 50px !important;
+  }
+}
+
+@media (max-width: 425px) {
+  #logo {
+    width: auto;
+    height: 35px !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
