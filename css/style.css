@@ -7,10 +7,6 @@
   background-color: rgba(72, 72, 68, 0.4);
 }
 
-.banner-heading {
-  font-size: 5rem;
-}
-
 #logo {
   width: auto;
   height: 90px;
@@ -141,9 +137,6 @@
   #logo {
     width: auto;
     height: 35px !important;
-  }
-  .banner-heading {
-    font-size: 2rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
